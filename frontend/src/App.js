@@ -41,6 +41,10 @@ export default function App(){
     setLoading(true);setMsg('');
     try{const r=await fetch(apiUrl('/order'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({table,type,customerName,phone,note,requests,items:cart})});const d=await r.json();if(!d.ok)throw new Error(d.message||'error');setCart([]);setNote('');setRequests([]);setMsg(dict.success)}catch(e){setMsg(dict.fail+': '+e.message)}finally{setLoading(false)}
   }
+  if (!table) {
+  setMsg("Vui lòng quét mã QR tại bàn");
+  return;
+}
   if(page==='admin')return <Admin lang={lang} setLang={setLang} setPage={setPage} reloadMenu={loadMenu}/>;
   return <div className="app">
     <header className="hero"><div className="logoCircle"><span>0909609678<br/>康河粉</span><b>Phở<br/>Khang</b></div><div className="brand"><div className="zh-title">康河粉</div><h1>PHỞ KHANG</h1><p>龍井區台灣大道五段3巷16號</p></div><div className="langBox"><button onClick={()=>setLang('vi')} className={lang==='vi'?'on':''}>VI</button><button onClick={()=>setLang('zh')} className={lang==='zh'?'on':''}>繁中</button><button onClick={()=>setLang('en')} className={lang==='en'?'on':''}>EN</button><button onClick={()=>setPage('admin')}>{dict.admin}</button></div></header>
