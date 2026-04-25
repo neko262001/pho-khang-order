@@ -1,0 +1,560 @@
+[
+  {
+    "id": "pho-hai-san",
+    "category": "pho",
+    "name_vi": "Phở Hải sản",
+    "name_zh": "海鮮河粉",
+    "name_en": "Seafood pho",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "pho-ga",
+    "category": "pho",
+    "name_vi": "Phở Gà",
+    "name_zh": "雞肉河粉",
+    "name_en": "Chicken pho",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "pho-lon",
+    "category": "pho",
+    "name_vi": "Phở Lợn",
+    "name_zh": "豬肉河粉",
+    "name_en": "Pork pho",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "pho-bo-tai-nam",
+    "category": "pho",
+    "name_vi": "Phở Bò tái nạm",
+    "name_zh": "手沖牛肉+牛腩河粉",
+    "name_en": "Rare beef & brisket pho",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "pho-bo-tai",
+    "category": "pho",
+    "name_vi": "Phở bò tái",
+    "name_zh": "手沖牛肉河粉",
+    "name_en": "Rare beef pho",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "pho-thap-cam",
+    "category": "pho",
+    "name_vi": "Phở thập cẩm (Bò tái, Nạm, Bò viên)",
+    "name_zh": "綜合牛肉河粉（手沖牛肉，牛腩，牛肉丸）",
+    "name_en": "Mixed beef pho (rare beef, brisket, beef balls)",
+    "price": 180,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "pho-bo-tai-lan",
+    "category": "pho",
+    "name_vi": "Phở Bò tái lăn đặc biệt",
+    "name_zh": "招牌生炒牛肉河粉",
+    "name_en": "Special stir-fried rare beef pho",
+    "price": 180,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "bun-hai-san",
+    "category": "bun",
+    "name_vi": "Bún Hải sản",
+    "name_zh": "海鮮米線",
+    "name_en": "Seafood rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "bun-ca",
+    "category": "bun",
+    "name_vi": "Bún cá",
+    "name_zh": "魚肉米線",
+    "name_en": "Fish rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "bun-ga",
+    "category": "bun",
+    "name_vi": "Bún gà",
+    "name_zh": "雞肉米線",
+    "name_en": "Chicken rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "bun-lon",
+    "category": "bun",
+    "name_vi": "Bún lợn",
+    "name_zh": "豬肉米線",
+    "name_en": "Pork rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "bun-bo-tai",
+    "category": "bun",
+    "name_vi": "Bún bò tái",
+    "name_zh": "手沖牛肉米線",
+    "name_en": "Rare beef rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "bun-bo-tai-nam",
+    "category": "bun",
+    "name_vi": "Bún bò tái nạm",
+    "name_zh": "手沖牛肉+牛腩米線",
+    "name_en": "Rare beef & brisket rice vermicelli soup",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "bun-thap-cam",
+    "category": "bun",
+    "name_vi": "Bún Thập cẩm (Bò tái, Nạm, Bò viên)",
+    "name_zh": "綜合牛肉米線（手沖牛肉，牛腩，牛肉丸）",
+    "name_en": "Mixed beef rice vermicelli soup (rare beef, brisket, beef balls)",
+    "price": 180,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": true
+    }
+  },
+  {
+    "id": "com-rang-bo",
+    "category": "friedRice",
+    "name_vi": "Cơm rang bò",
+    "name_zh": "牛肉炒飯",
+    "name_en": "Beef fried rice",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "com-rang-dua-bo",
+    "category": "friedRice",
+    "name_vi": "Cơm rang dưa bò",
+    "name_zh": "牛肉酸菜炒飯",
+    "name_en": "Beef & pickled mustard fried rice",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "com-rang-hai-san",
+    "category": "friedRice",
+    "name_vi": "Cơm rang Hải sản",
+    "name_zh": "海鮮炒飯",
+    "name_en": "Seafood fried rice",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "my-goi-xao-bo",
+    "category": "friedNoodles",
+    "name_vi": "Mỳ gói xào bò",
+    "name_zh": "牛肉炒泡麵",
+    "name_en": "Beef fried instant noodles",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "my-goi-xao-hai-san",
+    "category": "friedNoodles",
+    "name_vi": "Mỳ gói xào Hải sản",
+    "name_zh": "海鮮炒泡麵",
+    "name_en": "Seafood fried instant noodles",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "pho-xao-bo",
+    "category": "friedPho",
+    "name_vi": "Phở xào bò",
+    "name_zh": "牛肉炒河粉",
+    "name_en": "Beef stir-fried pho noodles",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "pho-xao-hai-san",
+    "category": "friedPho",
+    "name_vi": "Phở xào Hải sản",
+    "name_zh": "海鮮炒河粉",
+    "name_en": "Seafood stir-fried pho noodles",
+    "price": 140,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": true,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "banh-mi-xa-xiu-hue",
+    "category": "sidesDrinks",
+    "name_vi": "Bánh mì xá xíu Huế",
+    "name_zh": "順化叉燒麵包",
+    "name_en": "Hue char siu banh mi",
+    "price": 100,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "bun-tron-nem-ran",
+    "category": "sidesDrinks",
+    "name_vi": "Bún trộn nem rán",
+    "name_zh": "涼拌春捲米線",
+    "name_en": "Dry vermicelli with fried spring rolls",
+    "price": 150,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "canh-thit-bo-vien",
+    "category": "sidesDrinks",
+    "name_vi": "Canh thịt bò viên",
+    "name_zh": "牛肉丸湯",
+    "name_en": "Beef ball soup",
+    "price": 60,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "canh-thit-bo",
+    "category": "sidesDrinks",
+    "name_vi": "Canh thịt bò",
+    "name_zh": "牛肉湯",
+    "name_en": "Beef soup",
+    "price": 100,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "nem-cuon-3-cai",
+    "category": "sidesDrinks",
+    "name_vi": "Nem cuốn (3 cái)",
+    "name_zh": "生菜春捲（3捲）",
+    "name_en": "Fresh spring rolls (3 pcs)",
+    "price": 120,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "nem-ran-3-cai",
+    "category": "sidesDrinks",
+    "name_vi": "Nem rán (3 cái)",
+    "name_zh": "炸春捲（3捲）",
+    "name_en": "Fried spring rolls (3 pcs)",
+    "price": 120,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "coffee-den",
+    "category": "sidesDrinks",
+    "name_vi": "Coffee đen",
+    "name_zh": "越式黑咖啡",
+    "name_en": "Vietnamese black coffee",
+    "price": 60,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "coffee-sua",
+    "category": "sidesDrinks",
+    "name_vi": "Coffee sữa",
+    "name_zh": "越式煉乳咖啡",
+    "name_en": "Vietnamese milk coffee",
+    "price": 70,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "coffee-muoi",
+    "category": "sidesDrinks",
+    "name_vi": "Coffee muối",
+    "name_zh": "越式海鹽奶蓋咖啡",
+    "name_en": "Vietnamese salt coffee",
+    "price": 80,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  },
+  {
+    "id": "nuoc-chanh",
+    "category": "sidesDrinks",
+    "name_vi": "Nước chanh",
+    "name_zh": "檸檬水",
+    "name_en": "Lemonade",
+    "price": 60,
+    "image": "",
+    "description_vi": "",
+    "description_zh": "",
+    "description_en": "",
+    "available": true,
+    "featured": false,
+    "options": {
+      "spicy": false,
+      "beefCooked": false
+    }
+  }
+]
