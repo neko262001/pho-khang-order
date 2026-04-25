@@ -123,8 +123,11 @@ export default function App() {
   const [lang, setLang] = useState(localStorage.getItem('lang') || 'vi');
   const [menu, setMenu] = useState([]);
   const [cart, setCart] = useState([]);
-  const [type, setType] = useState('dine-in');
-  const [table] = useState(new URLSearchParams(window.location.search).get('table') || '');
+  const queryParams = new URLSearchParams(window.location.search);
+  const initialTable = queryParams.get('table') || '';
+  const initialType = queryParams.get('type') === 'takeaway' || initialTable === 'takeaway' ? 'takeaway' : 'dine-in';
+  const [type, setType] = useState(initialType);
+  const [table] = useState(initialTable);
   const [customerName, setCustomerName] = useState('');
   const [phone, setPhone] = useState('');
   const [note, setNote] = useState('');
@@ -223,9 +226,17 @@ export default function App() {
 
   return <div className="app">
     <header className="hero">
-      <div className="logoCircle">
-        <span>0909609678<br />康河粉</span>
-        <b>Phở<br />Kang</b>
+      <div className="logoCircle logoImageOnly">
+        <img
+          src="/logo-pho-kang.png"
+          alt="Phở Kang"
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '50%'
+          }}
+        />
       </div>
       <div className="brand">
         <div className="zh-title">康河粉</div>
@@ -243,7 +254,7 @@ export default function App() {
     <section className="orderType">
       <button className={type === 'dine-in' ? 'active' : ''} onClick={() => setType('dine-in')}>{dict.dine}</button>
       <button className={type === 'takeaway' ? 'active' : ''} onClick={() => setType('takeaway')}>{dict.take}</button>
-      {hasQrTable ? <div className="tableBadge">{dict.tableLabel}: {String(table).trim()}</div> : <div className="qrOnlyNotice">{dict.noQr}</div>}
+      {hasQrTable ? <div className="tableBadge">{type === 'takeaway' ? dict.take : `${dict.tableLabel}: ${String(table).trim()}`}</div> : <div className="qrOnlyNotice">{dict.noQr}</div>}
     </section>
 
     <main className="layout">
