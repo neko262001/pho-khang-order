@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
-const DEFAULT_BACKEND = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001';
+const DEFAULT_BACKEND = process.env.REACT_APP_BACKEND_URL || "https://pho-khang-order.onrender.com";
 const CATS = [
   { key:'pho', vi:'PHỞ', zh:'河粉（湯類）', en:'PHO' },
   { key:'bun', vi:'BÚN', zh:'米線（湯類）', en:'RICE VERMICELLI' },
